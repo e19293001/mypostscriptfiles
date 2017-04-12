@@ -1,0 +1,91 @@
+#+begin_src ps :tangle ex000.ps
+  %!PS
+  newpath
+  144 144 moveto
+  288 144 lineto
+  288 288 lineto
+  144 288 lineto
+  144 144 lineto
+  stroke
+  showpage
+#+end_src
+
+#+begin_src ps :tangle ex001.ps
+  %!PS
+  newpath
+  144 144 moveto
+  144 0 rlineto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  stroke
+#+end_src
+
+#+begin_src ps :tangle ex002.ps
+  %!PS
+  newpath
+  144 144 moveto
+  288 144 lineto
+  288 288 lineto
+  144 288 lineto
+  144 144 lineto
+  stroke
+  144 144 moveto
+  288 288 lineto
+  stroke
+  showpage
+#+end_src
+
+#+begin_src ps :tangle ex003.ps
+  %!PS
+  newpath
+  144 144 moveto
+  144 0 rlineto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  fill
+#+end_src
+
+#+begin_src ps :tangle ex004.ps
+  %!PS
+  0.5 setgray
+  newpath
+  144 144 moveto
+  144 0 rlineto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  fill
+#+end_src
+
+#+begin_src ps :tangle ex005.ps
+  %!PS
+  1 0 0 setrgbcolor
+  newpath
+  144 144 moveto
+  144 0 rlineto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  fill
+#+end_src
+
+#+begin_src ps :tangle ex006.ps
+  1 0 0 setrgbcolor
+  newpath
+  144 144 moveto
+  144 0 rlineto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  fill
+  0 setgray
+  newpath
+  144 144 moveto
+  144 0 moveto
+  0 144 rlineto
+  -144 0 rlineto
+  closepath
+  stroke
+#+end_src
